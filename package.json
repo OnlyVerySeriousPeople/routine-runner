@@ -1,0 +1,29 @@
+{
+  "name": "routine-runner",
+  "version": "1.0.0",
+  "description": "Easily run scripts to automate daily tasks",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyVerySeriousPeople/routine-runner.git"
+  },
+  "author": "OnlyVerySeriousPeople",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnlyVerySeriousPeople/routine-runner/issues"
+  },
+  "homepage": "https://github.com/OnlyVerySeriousPeople/routine-runner#readme",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-metarhia": "^8.2.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
+  }
+}
